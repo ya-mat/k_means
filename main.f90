@@ -44,10 +44,6 @@ program k_means
   end do
 
   mu(:, 1:k) = xn(:, 1:k)
-!  do j = 1, k
-!     mu(:, j) = xn(:, j)
-!!     mu(2, j) = xn(2, j)
-!  end do
 
   tmp_gk = 0
   tmp_mu = 0d0
